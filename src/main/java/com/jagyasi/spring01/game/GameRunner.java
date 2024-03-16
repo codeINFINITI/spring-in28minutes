@@ -1,8 +1,8 @@
 package com.jagyasi.spring01.game;
 
 public class GameRunner {
-    ContraGame game;
-    public GameRunner(ContraGame game) {
+    GamingConsole game;
+    public GameRunner(GamingConsole game) {
         this.game=game;
     }
 

@@ -1,6 +1,11 @@
 package com.jagyasi.spring01.game;
 
-public class MarioGame {
+public class MarioGame implements  GamingConsole {
+    private static final String name="Mario";
+    @Override
+    public String toString() {
+        return name;
+    }
     public void up(){
         System.out.println("Jump");
     }
