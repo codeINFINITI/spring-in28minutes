@@ -21,6 +21,9 @@ public class Spring02 {
         System.out.println(address);
 
         System.out.println(context.getBean(Address.class));
+        System.out.println("See here >>>");
+        System.out.println(context.getBean("personMethodCalls"));
+        System.out.println(context.getBean("personParams"));
 
         context.close();
 
